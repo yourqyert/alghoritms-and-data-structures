@@ -1,17 +1,20 @@
 package me.yourqyert.aitu;
 
-public class Main {
+import java.util.Scanner;
 
-    public static void main(String[] args) {
-        printNumbers(5);
-    }
+public class Task1 {
 
-    public static void printNumbers(int n) {
+    public static void printAscending(int n) {
         if (n == 0) {
             return;
         }
-
-        printNumbers(n - 1);
+        printAscending(n - 1);
         System.out.print(n + " ");
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        printAscending(n);
     }
 }
