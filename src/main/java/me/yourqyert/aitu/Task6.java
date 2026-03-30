@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Task6 {
 
+    // T - O(n)
+    // S - O(1)
     public static int sumDigits(int n) {
         if (n == 0) {
             return 0;

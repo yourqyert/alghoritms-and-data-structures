@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task14 {
 
+    // T - O(n)
     public static boolean linearSearch(int[] arr, int index, int target) {
         if (index == arr.length) {
             return false;

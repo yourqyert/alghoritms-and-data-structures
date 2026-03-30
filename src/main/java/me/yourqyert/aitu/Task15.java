@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task15 {
 
+    // T - O(n)
     public static boolean isSorted(int[] arr, int index) {
         if (index == arr.length - 1) {
             return true;

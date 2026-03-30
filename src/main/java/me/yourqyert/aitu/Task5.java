@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Task5 {
 
+    // T - O(n)
+    // S - O(1)
     public static int power(int a, int b) {
         if (b == 0) {
             return 1;

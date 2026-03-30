@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task8 {
 
+    // T - O(logn)
     public static void reverseNumber(int n) {
         if (n == 0) {
             return;

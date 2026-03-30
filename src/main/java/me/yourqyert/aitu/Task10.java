@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task10 {
 
+    // T - O(logn)
     public static boolean isPalindrome(String s, int left, int right) {
         if (left >= right) {
             return true;

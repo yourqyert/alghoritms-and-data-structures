@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task7 {
 
+    // T - O(logn)
     public static int countDigits(int n) {
         if (n == 0) {
             return 0;

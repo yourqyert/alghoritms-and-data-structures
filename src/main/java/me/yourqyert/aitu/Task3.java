@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Task3 {
 
+    // T - O(n)
+    // S - O(1)
     public static int sumToN(int n) {
         if (n == 0) {
             return 0;

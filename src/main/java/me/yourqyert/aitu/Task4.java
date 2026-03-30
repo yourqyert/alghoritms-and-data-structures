@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Task4 {
 
+    // T - O(n)
+    // S - O(1)
     public static int factorial(int n) {
         if (n == 0 || n == 1) {
             return 1;

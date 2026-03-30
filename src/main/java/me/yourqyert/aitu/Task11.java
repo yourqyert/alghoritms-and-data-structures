@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task11 {
 
+    // T - O(n)
     public static int sumArray(int[] arr, int index) {
         if (index == arr.length) {
             return 0;

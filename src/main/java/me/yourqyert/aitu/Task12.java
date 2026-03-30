@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task12 {
 
+    // T - O(n)
     public static int findMax(int[] arr, int index) {
         if (index == arr.length - 1) {
             return arr[index];

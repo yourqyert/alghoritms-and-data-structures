@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task9 {
 
+    // T - O(2n)
     public static int fibonacci(int n) {
         if (n == 0) {
             return 0;

@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Task2 {
 
+    // T - O(n)
+    // S - O(1)
     public static void printDescending(int n) {
         if (n == 0) {
             return;

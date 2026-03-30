@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task13 {
 
+    // T - O(logn)
     public static int countOccurrences(int[] arr, int index, int target) {
         if (index == arr.length) {
             return 0;
